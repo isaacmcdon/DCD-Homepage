@@ -9,7 +9,19 @@ h4 {
 /*TODO: Make it so DivBox has rounded edges of a color box for every div tag. Outline also black.*/
 .DivBox {
     background-color: aquamarine;
+    border: 6px solid #949599;
+    margin: 2%;
+    height: fit-content;
+    width: 80%;
 }
 #Intro {
     font-weight: bold;
+    border:#949599;
+    padding: 20px 28px;
+    background-color: #f0f4ff;
+    border-bottom: 3px solid #4b6bfb;
+}
+#links {
+    background-color: rgb(180, 255, 230);
+    border-bottom: 3px solid #4b6bfb;
 }
