@@ -2,10 +2,6 @@ h4 {
     color: darkblue;
 }
 /*Comment in CSS*/
-.Third {
-    background-color: cyan;
-    color: rgb(87, 87, 87);
-}
 /*TODO: Make it so DivBox has rounded edges of a color box for every div tag. Outline also black.*/
 .DivBox {
     background-color: aquamarine;

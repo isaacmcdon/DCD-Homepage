@@ -1,0 +1,22 @@
+.Third {
+    background-color: rgb(184, 196, 104);
+    color: rgb(66, 58, 42); /*Subject to change*/
+}
+h1 {
+    text-align: center;
+}
+.TierBox {
+    background-color: gold;
+    border: 6px solid rgb(123, 128, 55);
+    margin: 2%;
+    height: fit-content;
+    width: 80%;
+}
+.MiscBox {
+    background-color: rgb(127, 203, 76);
+    border: 6px solid rgb(123, 128, 55);
+    margin: 2%;
+    height: fit-content;
+    width: 80%;
+}
+/*this is for Fun.html*/
