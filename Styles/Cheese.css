@@ -19,4 +19,10 @@ h1 {
     height: fit-content;
     width: 80%;
 }
+.ChesImg {
+    max-width: 50%;
+    max-height: 50%;
+    /*Each Img should be 360 by 360 base
+    Fix up rule to actually apply itself for every img*/
+}
 /*this is for Fun.html*/
