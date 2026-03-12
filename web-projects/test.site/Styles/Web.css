@@ -3,6 +3,11 @@
     padding: 12px 16px;
     border-bottom: 3px solid #4b6bfb;
 }
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 .card {
     width: 260px;
     height: 140px;
@@ -11,6 +16,15 @@
     margin: 10px;
     background: #fafafa;
     box-sizing: 2px;
+    display: flex;
+    flex-direction: column;
+
+}
+/*Make it so the box compresses properly for the screen top down as well? might not be possible due to the page being long enough to have scroll.*/
+div > img {
+    width: 50%;
+    height: 50%;
+    align-self: center;
 }
 .highlight {
     border-color: #ff7a59;
