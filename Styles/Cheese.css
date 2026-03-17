@@ -1,4 +1,6 @@
 .Third {
+    margin: 0;
+    padding: 0;
     background-color: rgb(184, 196, 104);
     color: rgb(66, 58, 42); /*Subject to change*/
 }
