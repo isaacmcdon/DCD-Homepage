@@ -27,6 +27,7 @@ nav {
 .TierBox {
     background-color: gold;
     border: 6px solid rgb(123, 128, 55);
+    flex-flow: row wrap;
     padding: 5px;
     width: 300px;
     height: 300px;

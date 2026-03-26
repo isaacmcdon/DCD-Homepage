@@ -1,0 +1,15 @@
+.apple {
+    position: absolute;
+    bottom: 23mm;
+    right: 1000px;
+}
+.pear {
+    position: absolute;
+    bottom: 75mm;
+    right: 750px;
+}
+.cherry {
+    position: absolute;
+    bottom: -15mm;
+    right: 680px;
+}
