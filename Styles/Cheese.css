@@ -36,8 +36,6 @@ nav {
     padding: 5px;
     margin: 1em;
     line-height: 100px;
-    background-color: gold;
-    border: 6px solid rgb(123, 128, 55);
 }
 .TierBox .layer2 {
     position: absolute;
@@ -46,19 +44,44 @@ nav {
     width: 100%;
     padding: 10px;
 }
-.BlueBox {
-    position: relative;
-    flex-flow: row wrap;
-    text-align: center;
-    display: inline-block;
-    width: 50%;
-    max-width: 360px;
-    height: 50%;
-    height: 360px;
-    padding: 5px;
-    margin: 1em;
-    line-height: 100px;
-    background-color: rgb(69, 107, 189);
+#YellowBox {
+    background-color: gold;
+    border: 6px solid rgb(132, 100, 12);
+}
+#RedBox {
+    background-color: rgb(234, 88, 88);
+    border: 6px solid rgb(192, 61, 47);
+}
+#MozzBox {
+    background-color: rgb(191, 150, 75);
+    border: 6px solid rgb(144, 115, 58);
+}
+#ParBox {
+    background-color: rgb(219, 194, 148);
+    border: 6px solid rgb(165, 141, 93);
+}
+#ChedBox {
+    background-color: rgb(250, 162, 29);
+    border: 6px solid rgb(216, 132, 5);
+}
+#White3Box {
+    background-color: rgb(185, 185, 185);
+    border: 6px solid rgb(129, 129, 129);
+}
+#WhiteBox {
+    background-color: rgb(255, 255, 255);
+    border: 6px solid rgb(185, 185, 185);
+}
+#JackBox {
+    background-color: rgb(225, 167, 58);
+    border: 6px solid rgb(180, 135, 51);
+}
+#White2Box {
+    background-color: rgb(255, 248, 203);
+    border: 6px solid rgb(190, 181, 136);
+}
+#BlueBox {
+        background-color: rgb(69, 107, 189);
     border: 6px solid rgb(9, 26, 214);
 }
 .MiscBox {
