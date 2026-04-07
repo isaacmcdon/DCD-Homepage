@@ -1,13 +1,14 @@
 .Third {
     margin: 0;
     padding: 0;
-    background-color: rgb(184, 196, 104);
+    background-color: rgb(215, 155, 91);
     color: rgb(66, 58, 42); /*Subject to change*/
 }
 header {
     text-align: center;
     font-size: 2em;
 }
+/**GO BACK AND FIX NAV**/
 nav {
     position: fixed;
     display: flex;
@@ -15,9 +16,26 @@ nav {
     padding: 10px;
     left: 0;
     margin: 0;
-    text-align: center; /**do note that it might be long for phones so figure out implementation of
-    a scroll bar?**/
 }
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #553c20;
+  display: flex; 
+}
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav li a:hover {
+  background-color: #271c0f;
+}
+/**FIX NAV ABOVE**/
 .container {
     display: flex;
     justify-content: space-evenly;
